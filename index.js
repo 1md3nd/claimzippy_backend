@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
 const morgan = require("morgan");
-const taskRoutes = require("./routes/taskRoutes");
+const taskRoutes = require("./src/routes/taskRoutes");
 require("dotenv").config();
 
 const app = express();
